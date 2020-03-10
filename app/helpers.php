@@ -23,3 +23,11 @@ if (! function_exists('time_array_format_problem_solution')) {
         return $array_include_time;
     }
 }
+
+
+if (! function_exists('active_use')) {
+    function active_use($address, $parames='')
+    {
+        return active($address . '/*');
+    }
+}

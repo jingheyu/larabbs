@@ -12,10 +12,10 @@
       <!-- Left Side Of Navbar -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item {{ active('topics',  'active' ) }}"><a class="nav-link" href="{{ route('topics.index') }}">话题</a></li>
-        <li class="nav-item {{ active( route('categories.show', 1)  , 'active' ) }}" ><a class="nav-link" href="{{ route('categories.show', 1) }}">分享</a></li>
-        <li class="nav-item {{ active( route('categories.show', 2)  , 'active' ) }}"><a class="nav-link" href="{{ route('categories.show', 2) }}">教程</a></li>
-        <li class="nav-item {{ active( route('categories.show', 3)  , 'active' ) }}"><a class="nav-link" href="{{ route('categories.show', 3) }}">问答</a></li>
-        <li class="nav-item {{ active( route('categories.show', 4)  , 'active' ) }}"><a class="nav-link" href="{{ route('categories.show', 4) }}">公告</a></li>
+        <li class="nav-item {{ active('categories/1',  'active' ) }}" ><a class="nav-link" href="{{ route('categories.show', 1) }}">分享</a></li>
+        <li class="nav-item {{ active('categories/2',  'active' ) }}"><a class="nav-link" href="{{ route('categories.show', 2) }}">教程</a></li>
+        <li class="nav-item {{ active('categories/3',  'active' ) }}"><a class="nav-link" href="{{ route('categories.show', 3) }}">问答</a></li>
+        <li class="nav-item {{ active('categories/4',  'active' ) }}"><a class="nav-link" href="{{ route('categories.show', 4) }}">公告</a></li>
       </ul>
 
     <!-- Right Side Of Navbar -->
